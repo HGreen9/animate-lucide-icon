@@ -6,14 +6,19 @@
 /* temp background color */
 body {
     background: #d1e2d5;
-}
-  
-/* vertical and horizontal centering */
-body {
+    
+      /* vertical and horizontal centering */
   display: grid;
   place-content: center;
   height: 100vh;
 }
+
+/* #clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+/* } */
 
 #clock {
 /*   color: blue; */
@@ -105,3 +110,22 @@ transform-origin: center;
 #clock:hover {
   color:red;
 }
+
+
+/* #cloud-1 {
+  color: red;
+  width: 4px; 
+  height: 4px;
+}
+
+#cloud-2 {
+  color: blue;
+  width: 4px; 
+  height: 4px;
+}
+
+#cloud-3 {
+  color: green;
+  width: 4px; 
+  height: 4px;
+} */
